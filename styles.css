@@ -1,0 +1,145 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.png);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#answers {
+  width: 200px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#answers p {
+  font-size: 50px;
+  margin: 0;
+}
+
+.rightAnswer {
+  color: green;
+}
+
+.wrongAnswer {
+  color: #f00;
+}
+
+.rightAnswerModal {
+  border: 5px solid green;
+}
+
+.wrongAnswerModal {
+  border: 5px solid red;
+}
+
+#gameContent {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  position: relative;
+  margin-top: 100px;
+}
+
+#game0 {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#game0 .userImg {
+  width: 100px;
+}
+
+.startQuiz {
+  margin: 10px;
+  width: 50px;
+}
+
+.startQuiz:hover {
+  cursor: pointer;
+}
+
+#game1 {
+  margin: auto;
+  width: 600px;
+  right: -600px;
+  position: absolute;
+  top: 0;
+}
+
+#game2 {
+  margin: auto;
+  width: 600px;
+  right: -600px;
+  position: absolute;
+  top: 0;
+}
+
+#game0 p {
+  font-size: 18px;
+}
+
+.questionText {
+  font-size: 18px;
+  color: #fff;
+}
+
+.pix {
+  margin: 15px;
+  border: 5px solid #fff;
+  cursor: pointer;
+  float: left;
+  background-color: #fff;
+}
+
+.pix:hover {
+  border: #fc0 solid 5px;
+}
+
+#topbar {
+  margin: auto;
+  margin-top: 50px;
+  color: #fff;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+}
+
+.feedback1 {
+  padding: 5px;
+  font-size: 30px;
+  color: #ffc;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
+
+.feedback2 {
+  padding: 5px;
+  font-size: 30px;
+  color: #ffc;
+  background-color: #f00;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: -50px;
+  right: 0;
+}
+
+.modal-body img {
+  margin: 10px;
+}
